@@ -1,7 +1,7 @@
 /**
  * 
  * N_Library by xXNurioXx [www.xxnurioxx.me]
- * Pack: [y17m12] Last Modify: 29/12/2017
+ * Pack: [y18m1] Last Modify: 1/1/2018
  * Twitter: [https://twitter.com/xXNurioXx]
  * Mail: [personal@xxnurioxx.me]
  * 
