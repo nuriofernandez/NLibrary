@@ -159,7 +159,6 @@ public class NLConfig {
 
 	/**
 	 * Save ItemStack to YAML
-	 * Updated to 1.13 new MetaData & Materials.
 	 * @param patch
 	 * @param item
 	 */
@@ -234,7 +233,6 @@ public class NLConfig {
 	
 	/**
 	 * Get ItemStack from YAML
-	 * Updated to 1.13 new MetaData & Materials.
 	 * @param patch
 	 * @return
 	 */
@@ -317,7 +315,6 @@ public class NLConfig {
 
 	/**
 	 * Save full inventroy to YAML
-	 * Not working with 1.12 new metadata.
 	 * @param patch
 	 * @param inv
 	 */
@@ -331,7 +328,6 @@ public class NLConfig {
 
 	/**
 	 * Get full inventory from YAML
-	 * Not working with 1.12 new metadata.
 	 * @param patch
 	 * @return
 	 */
