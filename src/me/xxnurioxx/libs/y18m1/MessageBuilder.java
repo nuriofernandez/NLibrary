@@ -1,7 +1,7 @@
 /**
  * 
  * N_Library by xXNurioXx [www.xxnurioxx.me]
- * Pack: [y18m1] Last Modify: 1/1/2018
+ * Pack: [y18m1] Last Modify: 13/10/2018
  * Twitter: [https://twitter.com/xXNurioXx]
  * Mail: [personal@xxnurioxx.me]
  * 
@@ -79,7 +79,7 @@ public class MessageBuilder {
 		ArrayList<String> message = new ArrayList<>();
 		
 		/* Stop when message id isn't exist's */
-		if(messages.containsKey(message_id)) {
+		if(!messages.containsKey(message_id)) {
 			System.out.println("Error obtaining message '"+message_id+"'");
 			return message;
 		}
