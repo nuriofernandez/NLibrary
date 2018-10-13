@@ -10,7 +10,7 @@ public class MessageBuilderExample {
 		
 		// Register a new message.
 		ArrayList<String> message = new ArrayList<String>();
-		message.add("Welcome, %username% to the server. %username% %username%");
+		message.add("Welcome, %username% to the server.");
 		message.add("Now you have %friend_count% online friends.");
 		MessageBuilder.setDefaultMessage("welcome_message", message);
 		
