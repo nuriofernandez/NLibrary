@@ -22,3 +22,8 @@ for(String line : mb.getMessageResult()) {
 	System.out.println(line);
 }
 ```
+Output:
+```text
+Welcome, Nurio to the server.
+Now you have 0 online friends.
+```
