@@ -9,15 +9,15 @@
  * @Target Bukkit
  */
 
-package me.xxnurioxx.libs.y18m1.bukkit;
+package me.xxnurioxx.libs.bukkit.commandhandler;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import me.xxnurioxx.libs.y16.MColor;
-import me.xxnurioxx.libs.y18m1.MessageBuilder;
+import me.xxnurioxx.libs.bukkit.MColor;
+import me.xxnurioxx.libs.messages.MessageBuilder;
 
 import java.util.HashMap;
 

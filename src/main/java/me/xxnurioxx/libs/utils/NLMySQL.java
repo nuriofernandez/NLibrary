@@ -9,14 +9,14 @@
  * @Target All
  */
 
-package me.xxnurioxx.libs.y17m12;
+package me.xxnurioxx.libs.utils;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 import com.mysql.jdbc.Connection;
 
-public class NL_MySQL {
+public class NLMySQL {
 
 	// Connection field
 	private Connection connection;
@@ -36,7 +36,7 @@ public class NL_MySQL {
 	 * @param username
 	 * @param password
 	 */
-	public NL_MySQL(String host, int port, String database, String username, String password){
+	public NLMySQL(String host, int port, String database, String username, String password){
 		this.host = host;
 		this.password = password;
 		this.username = username;

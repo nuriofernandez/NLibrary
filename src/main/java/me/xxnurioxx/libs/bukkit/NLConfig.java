@@ -9,7 +9,7 @@
  * @Target Bukkit
  */
 
-package me.xxnurioxx.libs.y18m10.bukkit;
+package me.xxnurioxx.libs.bukkit;
 
 import java.io.File;
 import java.io.IOException;

@@ -9,7 +9,7 @@
  * @Target Bukkit
  */
 
-package me.xxnurioxx.libs.y18m1.bukkit;
+package me.xxnurioxx.libs.bukkit.commandhandler;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
