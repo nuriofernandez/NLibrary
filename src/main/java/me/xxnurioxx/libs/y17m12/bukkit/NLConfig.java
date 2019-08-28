@@ -28,8 +28,6 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
-import me.xxnurioxx.libs.y16.MItem;
-
 public class NLConfig {
 
 	private Plugin pmain;
