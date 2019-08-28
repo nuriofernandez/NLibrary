@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>me.xxnurioxx</groupId>
 	<artifactId>libs</artifactId>
-	<version>1.0</version>
+	<version>2.1</version>
 	<name>NLibrary</name>
-	<description>Nurio Library plugin.</description>
+	<description>Nurio's Library plugin.</description>
 
 	<repositories>
 		<repository>
