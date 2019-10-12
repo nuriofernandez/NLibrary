@@ -5,7 +5,7 @@ This library is mainly focused on the development of Bukkit. But contains non-de
 
 # Complements
 
-#### [Message Builder](https://github.com/xXNurioXx/NLibrary/blob/master/src/me/xxnurioxx/libs/y18m1/MessageBuilder.java "Message Builder") is a with variable message builder.
+#### [Message Builder](https://github.com/xXNurioXx/NLibrary/blob/master/src/main/java/me/xxnurioxx/libs/messages/MessageBuilder.java "Message Builder") is a with variable message builder.
 Usage example:
 ```java
 // Register a new message.
