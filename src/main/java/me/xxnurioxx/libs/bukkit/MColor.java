@@ -10,7 +10,7 @@
  *
  */
 
-package me.xxnurioxx.libs.y16;
+package me.xxnurioxx.libs.bukkit;
 
 import java.util.ArrayList;
 

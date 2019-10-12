@@ -9,7 +9,7 @@
  * @Target All
  * 
  */
-package me.xxnurioxx.libs.y18m10.bukkit;
+package me.xxnurioxx.libs.bukkit;
 
 import java.util.ArrayList;
 

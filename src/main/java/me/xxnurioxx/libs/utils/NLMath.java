@@ -10,11 +10,11 @@
  *
  */
 
-package me.xxnurioxx.libs.y17m12;
+package me.xxnurioxx.libs.utils;
 
 import java.util.Random;
 
-public class NL_Math {
+public class NLMath {
 
 	/**
 	 * Random class

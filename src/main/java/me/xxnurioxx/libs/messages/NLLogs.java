@@ -9,7 +9,7 @@
  * @Target Bukkit
  */
 
-package me.xxnurioxx.libs.y17m12.bukkit;
+package me.xxnurioxx.libs.messages;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -21,7 +21,7 @@ import java.util.Calendar;
 import org.apache.commons.lang.exception.ExceptionUtils;
 import org.bukkit.plugin.Plugin;
 
-public class NL_Logs {
+public class NLLogs {
 
 	private static String log_prefix = "";
 

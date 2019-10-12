@@ -1,5 +1,3 @@
-package examples;
-
 import java.util.ArrayList;
 
 import me.xxnurioxx.libs.y18m1.MessageBuilder;
