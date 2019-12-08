@@ -2,9 +2,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>me.xxnurioxx</groupId>
-	<artifactId>libs</artifactId>
-	<version>2.1.14</version>
+	<groupId>me.nurio</groupId>
+	<artifactId>nlibrary</artifactId>
+	<version>2.1.15</version>
 	<name>NLibrary</name>
 	<description>Nurio's Library plugin.</description>
 
@@ -14,12 +14,16 @@
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
 		<repository>
+			<id>minegrech-repo</id>
+			<url>https://dev.minegrech.com/mvn/repository/</url>
+		</repository>
+		<repository>
 			<id>destroystokyo-repo</id>
-			<url>https://repo.destroystokyo.com/repository/maven-public//</url>
+			<url>https://repo.destroystokyo.com/repository/maven-public/</url>
 		</repository>
 		<repository>
 			<id>vault-repo</id>
-			<url>http://nexus.hc.to/content/repositories/pub_releases</url>
+			<url>http://nexus.hc.to/content/repositories/pub_releases/</url>
 		</repository>
 	</repositories>
 
@@ -49,6 +53,7 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!-- Vault economy API -->
 		<dependency>
 			<groupId>net.milkbowl.vault</groupId>
 			<artifactId>VaultAPI</artifactId>
@@ -56,23 +61,6 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-shade-plugin</artifactId>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>shade</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
 
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>

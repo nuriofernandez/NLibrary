@@ -9,7 +9,7 @@
  * @Target Bukkit
  */
 
-package me.xxnurioxx.libs.messages;
+package me.nurio.nlibrary.messages;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -76,7 +76,6 @@ public class NLLogs {
 			info("Error saving crash to file.");
 			e.printStackTrace();
 		}
-
 	}
 	
 }

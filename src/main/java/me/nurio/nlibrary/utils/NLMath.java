@@ -10,7 +10,7 @@
  *
  */
 
-package me.xxnurioxx.libs.utils;
+package me.nurio.nlibrary.utils;
 
 import java.util.Random;
 

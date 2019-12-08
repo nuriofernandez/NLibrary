@@ -9,7 +9,7 @@
  * @Target All
  */
 
-package me.xxnurioxx.libs.utils;
+package me.nurio.nlibrary.utils;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;

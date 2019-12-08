@@ -9,7 +9,7 @@
  * @Target Bukkit
  */
 
-package me.xxnurioxx.libs.messages;
+package me.nurio.nlibrary.messages;
 
 import java.util.ArrayList;
 import java.util.Map.Entry;

@@ -1,15 +1,4 @@
-/**
- * 
- * N_Library by xXNurioXx [www.xxnurioxx.me]
- * Pack: [y18m10] Last Modify: 4/10/2018
- * Twitter: [https://twitter.com/xXNurioXx]
- * Mail: [personal@xxnurioxx.me]
- * 
- * @author xXNurioXx
- * @Target Bukkit
- */
-
-package me.xxnurioxx.libs.bukkit;
+package me.nurio.nlibrary.bukkit;
 
 import java.io.File;
 import java.io.IOException;
@@ -202,7 +191,7 @@ public class NLConfig {
 		
 		List<String> storedenchants = new ArrayList<String>();
 		EnchantmentStorageMeta meta = (item.getType() == Material.ENCHANTED_BOOK && hasMeta) ? (EnchantmentStorageMeta) item.getItemMeta() : null;
-		boolean hasStoredEnchants = meta != null ? meta.hasStoredEnchants() : false;		
+		boolean hasStoredEnchants = meta != null ? meta.hasStoredEnchants() : false;
 		if(hasStoredEnchants){
 			for(Enchantment enchname : meta.getStoredEnchants().keySet()) {
 				storedenchants.add(enchname.getKey()+","+meta.getStoredEnchantLevel(enchname));

@@ -10,7 +10,7 @@
  *
  */
 
-package me.xxnurioxx.libs.bukkit;
+package me.nurio.nlibrary.bukkit;
 
 import java.util.ArrayList;
 
